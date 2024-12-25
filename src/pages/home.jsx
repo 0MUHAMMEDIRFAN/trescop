@@ -90,7 +90,7 @@ const HomePage = () => {
                       width: "max-content",
                     }}
                   >
-                    Journey Towards Success
+                    Fueling Progress Together
                   </h2>
                   <span
                     className="text-white transition-all duration-300 inline-block font-bold text-4xl md:text-6xl lg:text-7xl shake-animation"
