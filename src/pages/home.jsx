@@ -189,7 +189,7 @@ const HomePage = () => {
                   <img
                     className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                     alt="hero"
-                    src="../img/served-1.jpg"
+                    src="../img/DALL-img-3.jpg"
                   />
                 </SlideInRightComponent>
               </div>
