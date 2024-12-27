@@ -119,11 +119,11 @@ const Service = () => {
                   </p>
                 </div>
               </div>
-              <div className="p-4 md:w-2/5">
+              <div className="p-4 md:w-2/5 flex items-center">
                 <img
                   className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
-                  src="../img/DALL-img-6.jpg"
+                  src="../img/DALL-img-6.webp"
                 />
               </div>
             </div>

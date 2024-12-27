@@ -31,7 +31,7 @@ const HomePage = () => {
       <div className="relative">
         {/* <img src="../../img/oil-logistic-3.jpg" alt="Slide 1" className="w-full h-lvh md:h-lvh  object-cover" /> */}
         <video
-          src="../video/VIDEO_TRESCORP.mp4" // Update with the correct path to your video file
+          src="../video/Trescorp-3.mp4" // Update with the correct path to your video file
           className="w-full h-lvh md:h-lvh object-cover"
           autoPlay
           loop
@@ -184,12 +184,12 @@ const HomePage = () => {
                 </SlideInRightComponent>
               </div>
 
-              <div className="p-4 md:w-2/5">
+              <div className="p-4 md:w-2/5 flex items-center">
                 <SlideInRightComponent>
                   <img
                     className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                     alt="hero"
-                    src="../img/DALL-img-3.jpg"
+                    src="../img/DALL-img-3.webp"
                   />
                 </SlideInRightComponent>
               </div>
@@ -200,8 +200,8 @@ const HomePage = () => {
             style={{ backgroundColor: "#f7f9fb" }}
           >
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-              <div className="p-4">
-                <div>
+              <div className="p-4 w-full">
+                <div className="">
                   <h1
                     className="heading"
                     style={{ textTransform: "capitalize" }}

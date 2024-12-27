@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import './client.css';
 
-const ClientLogoCarosel = ({builderData}) => {
+const ClientLogoCarosel = ({ builderData }) => {
   const [data, setData] = useState([]);
   useMemo(() => setData(builderData), [builderData]);
 
@@ -12,23 +12,25 @@ const ClientLogoCarosel = ({builderData}) => {
     const slideTrack = slideTrackRef.current;
     const slides = Array.from(slideTrack.children);
 
-   // Clone the first set of slides to the end
+    // Clone the first set of slides to the end
     slides.forEach((slide) => {
       const clone = slide.cloneNode(true);
       slideTrack.appendChild(clone);
     });
 
   }, []);
-  
+
   return (
-    <div className="slider">
-    <div className="slide-track" ref={slideTrackRef}>
+    // <div className="slider">
+    // <div className="slide-track" ref={slideTrackRef}>
+    // <div className="slider">
+    <div className="list" ref={slideTrackRef}>
 
       {data ? (
         data.concat(data)?.map((image, index) => (
-          <div className="slide" key={image.id}>
-            <a href='/counter-party'  rel="noreferrer">
-            <img src={image.builder_logo} alt={`Logo ${image.builder_name}`} />
+          <div className="card" key={image.id}>
+            <a href='/counter-party' rel="noreferrer">
+              <img src={image.builder_logo} alt={`Logo ${image.builder_name}`} />
             </a>
           </div>
 
@@ -38,7 +40,7 @@ const ClientLogoCarosel = ({builderData}) => {
       )}
 
       {/* /.End Grid Post */}
-    </div>
+      {/* </div> */}
     </div>
   );
 };
