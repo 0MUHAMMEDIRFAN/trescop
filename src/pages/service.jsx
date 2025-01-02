@@ -73,7 +73,7 @@ const Service = () => {
                 <img
                   className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
-                  src="../img/33442.jpg"
+                  src="../img/Trading.jpg"
                 />
               </div>
               <div className="p-4 md:w-3/5">
@@ -136,7 +136,7 @@ const Service = () => {
                 <img
                   className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
-                  src="../img/60868.jpg"
+                  src="../img/marketing.jpg"
                 />
               </div>
               <div className="p-4 md:w-3/5">

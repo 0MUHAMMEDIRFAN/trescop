@@ -31,7 +31,7 @@ const HomePage = () => {
       <div className="relative">
         {/* <img src="../../img/oil-logistic-3.jpg" alt="Slide 1" className="w-full h-lvh md:h-lvh  object-cover" /> */}
         <video
-          src="../video/Trescorp-3.mp4" // Update with the correct path to your video file
+          src="../video/Trescorp.mp4" // Update with the correct path to your video file
           className="w-full h-lvh md:h-lvh object-cover"
           autoPlay
           loop
@@ -100,10 +100,10 @@ const HomePage = () => {
                       display: "inline-block",
                     }}
                   >
-                    <span>SELECTED</span>
+                    <span>ENERGY</span>
                   </span>
 
-                  <span className="ekit-heading__shadow-text">WORK</span>
+                  <span className="ekit-heading__shadow-text">SOLUTIONS</span>
                 </div>
 
                 <div className="mt-10 md:w-fill mt-20">
