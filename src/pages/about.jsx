@@ -13,21 +13,21 @@ const About = () => {
     // },
     {
       title: "Why Choose Us",
-      content: "TRESCORP is in the sourcing and procuring of crude oil and petroleum with complete supply chain activities; including sourcing, transporting, storage and processing arrangements.",
+      content: "TRESCORP manages the sourcing and procurement of crude oil and petroleum products, overseeing all supply chain activities, from sourcing and transportation to storage and processing.",
     },
     {
       title: "Our Vision",
-      content: "TRESCORP’s vision is to be the Preferred Oil and Gas Business Solution Provider for the Downstream Supply Chain.",
+      content: "TRESCORP's vision is to be the preferred oil and gas business solution provider for the downstream supply chain.",
     },
     {
       title: "Our Mission",
       list_content: [
-        "To provide attractive business alternatives that enhance value to our partners.",
-        "To ensure all our business ventures attractive returns.",
-        "To provide solutions,endless support and satisfaction ensuring business sustainability.",
+        "To provide attractive business alternatives that enhance value for our partners.",
+        "To ensure all our business ventures generate attractive returns.",
+        "To provide solutions, dedicated support, and ensure client satisfaction, fostering sustainable business growth.",
       ]
     },
-   
+
     // {
     //   title: "Our Business",
     //   content:
@@ -82,10 +82,10 @@ const About = () => {
                     company which focuses on crude oil and petroleum products
                     from its headquarters in Singapore.
                   </p>
-                  <br/>
+                  <br />
                   <p className="text-lg leading-relaxed">
-                  We specialize in sourcing and trading of crude oil, LNG and refined petroleum products on a global scale. We have established reliable supply direct from source. We channel sales through our extensive networks internationally. We are a complete end to end supply chain provider.
-                   </p> 
+                    We specialize in sourcing and trading of crude oil, LNG and refined petroleum products on a global scale. We have established reliable supply direct from source. We channel sales through our extensive networks internationally. We are a complete end to end supply chain provider.
+                  </p>
                   {/* <button
                     className="btn btn-oval inline-flex items-center mt-4 font-bold"
                     onClick={() => window.location.replace("/contact-us")}
@@ -105,7 +105,7 @@ const About = () => {
                 <div>
                   <h1
                     className="btm text-xs lg:text-8xl mb-2"
-                    style={{ textTransform: "capitalize",fontWeight:'500' }}
+                    style={{ textTransform: "capitalize", fontWeight: '500' }}
                   >
                     Our Strenghts
                   </h1>
@@ -116,63 +116,63 @@ const About = () => {
                   <div className="flex items-center gap-4 mb-2">
                     <div className="pentagon">
                       <span class="elementor-icon elementor-animation" >
-                      <i className="fa-solid fa-handshake" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                        <i className="fa-solid fa-handshake" style={{ fontSize: 'x-large', marginTop: '0.8rem' }}></i>
                       </span>
                     </div>
                     <div className="mt-2">
                       <p className="text-black font-bold">
-                       We have been appointed by the Ministry of Energy and Minerals, The Sultanate of Oman to act as their representative to market,sell and distribute crude oil.
+                        We are appointed by the Ministry of Energy and Minerals of the Sultanate of Oman to market, sell, and distribute their crude oil.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 mb-2">
                     <div className="pentagon">
                       <span class="elementor-icon elementor-animation">
-                      <i class="fa-solid fa-bolt" style={{fontSize:'xx-large', marginTop:'0.5rem'}}></i>
+                        <i class="fa-solid fa-bolt" style={{ fontSize: 'xx-large', marginTop: '0.5rem' }}></i>
                       </span>
                     </div>
                     <div className="mt-2">
-                      
+
                       <p className="text-black font-bold">
-                       We process and market our own petroleum products, including gasoline, gasoil (diesel), fuel oil and LPG.
+                        We process and market our own petroleum products, including gasoline, gasoil (diesel), fuel oil and LPG.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 mb-2">
                     <div className="pentagon">
                       <span class="elementor-icon elementor-animation">
-                      <i class="fa-solid fa-oil-well" style={{fontSize:'x-large', marginTop:'0.5rem'}}></i>
+                        <i class="fa-solid fa-oil-well" style={{ fontSize: 'x-large', marginTop: '0.5rem' }}></i>
                       </span>
                     </div>
                     <div className="mt-2">
                       <p className="text-black font-bold">
-                        We trade Fuel Oil, Crude oil, LNG, LPG and Gas oil. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        We trade fuel oil, crude oil, LNG, LPG, and gas oil. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 mb-2">
                     <div className="pentagon">
                       <span class="elementor-icon elementor-animation">
-                      <i class="fa-solid fa-industry" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                        <i class="fa-solid fa-industry" style={{ fontSize: 'x-large', marginTop: '0.8rem' }}></i>
                       </span>
                     </div>
                     <div className="mt-2">
-                      
+
                       <p className="text-black font-bold">
-                       Constructing and Managing crude and fuel oil storage facilities in Oman.
+                        Constructing and Managing crude and fuel oil storage facilities in Oman.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 mb-2">
                     <div className="pentagon">
                       <span class="elementor-icon elementor-animation">
-                      <i class="fa-solid fa-bullseye" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                        <i class="fa-solid fa-bullseye" style={{ fontSize: 'x-large', marginTop: '0.8rem' }}></i>
                       </span>
                     </div>
                     <div className="mt-2">
-                      
+
                       <p className="text-black font-bold">
-                      Since 2017 we have been a Term allocation holder of Oman Exports Blend souced directly from the Ministry of Energy and Minerals, The Sultanate of Oman.
+                        Since 2017, we have held a term allocation for Oman Export Blend, sourced directly from the Ministry of Energy and Minerals of the Sultanate of Oman.
                       </p>
                     </div>
                   </div>
@@ -180,10 +180,7 @@ const About = () => {
               </div>
               <div className="p-4 md:w-1/2">
                 <p className="font-bold mb-4 lg:my-36">
-                  Trescorp's strength is in the sourcing and procuting of crude
-                  oil's. LNG and petroleum products namely gasoline,
-                  gasoil(disel), fuel oil and LPG and distrubuting them into the
-                  Asia region at competitive terms.
+                  Trescorp's strength lies in sourcing and procuring crude oil, LNG, and petroleum products (gasoline, gas oil (diesel), fuel oil, and LPG). We distribute these products throughout Asia at competitive terms.
                 </p>
               </div>
             </div>
